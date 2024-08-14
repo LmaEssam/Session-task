@@ -1,0 +1,110 @@
+#main{
+    width: 700px;
+    height:550px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+h1{
+    margin: 0;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#information{
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+input{
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid  hsl(186, 15%, 59%);
+    padding-left: 20px;
+}
+#email{
+    width: 650px;
+}
+button{
+    width: 690px;
+    height: 40px;
+    border-radius:10px ;
+    border: none;
+    cursor: pointer;
+    background-color:  hsl(169, 82%, 27%);
+    color: white;
+}
+.query-type-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.query-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 4px;
+    padding: 10px;
+    width: 330px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.query-option label {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+#general-enquiry{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+#support-request{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+#check{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+#checkbox{
+    width: 20px;
+}
+#textarea{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+textarea{
+    width: 670px;
+    height: 100px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 10px;
+}
