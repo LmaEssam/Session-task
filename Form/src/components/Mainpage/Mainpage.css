@@ -1,5 +1,5 @@
 #main{
-    width: 700px;
+    width: 900px;
     height:550px;
     background-color: white;
     border-radius: 10px;
@@ -21,7 +21,7 @@ h1{
 #information{
     display: flex;
     flex-direction: row;
-    column-gap: 90px;
+    column-gap: 60px;
 }
 .first{
     display: flex;
@@ -36,7 +36,7 @@ input{
     padding-left: 20px;
 }
 #email{
-    width: 650px;
+    width:170px;
 }
 button{
     width: 690px;
@@ -104,9 +104,42 @@ button{
 }
 textarea{
     width: 670px;
-    height: 100px;
+    height: 80px;
     border: 1px solid hsl(186, 15%, 59%);
     border-radius: 10px;
+}
+.gender-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.gender-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    border-radius: 4px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.gender-option label {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+.second{
+    position:absolute;
+    left: 500px;
+    top: 230px;
+}
+
+#age {
+    width: 270px;
 }
 @media only screen and (max-width:375px) {
     #main {
